@@ -1,13 +1,14 @@
-package com.example.board.service;
+package com.example.board.serviceImpl;
 
 import com.example.board.dto.BoardDto;
 import com.example.board.mapper.BoardMapper;
+import com.example.board.service.BoardService;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
 
 @Service
-public class BoardServiceImpl implements BoardService{
+public class BoardServiceImpl implements BoardService {
 
     private final BoardMapper boardMapper;
 
